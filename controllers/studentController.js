@@ -31,7 +31,7 @@ module.exports = {
       .then(async (students) => {
         const studentObj = {
           students,
-          headCount: await headCount(),
+          // headCount: await headCount(),
         };
         return res.json(studentObj);
       })
